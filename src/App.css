@@ -6,24 +6,125 @@ input{
   padding: 30px;
   border: 2px solid rgb(255, 115, 0);
   border-radius: 20px;
-  font-size: 2.5rem;
+  font-size: 1.5rem;
   color: orangered;
 }
 
 
 .caja1{
-  justify-content: center;
-  align-items: center;
-  max-width: min-content;
-  padding-left: 500px;
-  overflow:hidden;
+  display:flex;
+  max-width: 100%;
   font-family: Verdana;
   font-size: 25px;
-  padding-top: 10px;
+  padding-top: 20px;
   text-align: center;
   color:orangered;
   font-weight: bold;
+  padding-bottom: 20%;
   
+  
+}
+
+.navbar{
+  display:flex;
+  justify-content: flex-end;
+  padding-right: 10vh;
+  padding: 40px;
+  background-color: rgb(255, 158, 46);
+  padding-top: -25px;
+}
+
+.ban-g{
+  width: 20%;
+  height: 100vh;
+  background-color: beige;
+  
+  margin-left: 10px;
+}
+
+.video{
+  flex-basis: min-content;
+  height: 920px;
+  width: 920px;
+}
+
+.calculador{
+  align-content: center;
+  justify-content: center;
+  vertical-align: middle;
+  flex-basis: min-content;
+  padding-left: 40vh;
+  padding-top: -10vh;
+}
+
+.form{
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  padding-top: 10.5vh;
+  padding-bottom: 10vh;
+  
+}
+
+.put-space{
+  padding: 4px;
+  width: 200px;
+}
+
+button{
+  font-size: 15px;
+  padding: 2.5vh;
+  
+  border: 0.25px solid transparent;
+  margin-left: 3vh;
+  display:flex;
+  justify-content: flex-end;
+}
+
+.bolita{
+  max-height: 10px;
+  background-color: aqua;
+  border: 1px solid pink;
+  border-radius: 500px;
+  margin-left: 30px;
+  margin-top: 5px;
+  
+  padding:20px;
+  max-width: 2px;
+}
+
+.caja-b{
+  margin-top:30px;
+  height: 70px;
+  width:170px;
+  background-color: #212121;
+  justify-content: center;
+  display: block;
+  align-content: center;
+  position: fixed;
+  
+}
+
+.title1{
+  text-align: center;
+  font-family: verdana;
+  color: orangered;
+  font-size: 3rem;
+  text-shadow: 3px 3px grey ;
+  padding: 200px;
+}
+
+.footer1{
+  
+  height: 80vh;
+  width: 100%;
+}
+
+.footer{
+  font-size: 25px;
+  display: block;
+  padding-top:15%;
+  padding-left: 45%;
 }
 
 @media (max-width: 600px) {
@@ -40,4 +141,43 @@ input{
     color:orangered;
     font-weight: bold;
   }
+
+  input{
+    padding: 15px;
+    border: 2px solid rgb(255, 115, 0);
+    border-radius: 20px;
+    font-size: 1.5rem;
+    color: orangered;
+    margin-left: 40px;
+    text-align: center;
+  }
 }
+
+
+@media (max-width: 720px) {
+  .caja1 {
+    justify-content: center;
+    align-items: center;
+    max-width: min-content;
+    padding-left: 100px;
+    overflow:hidden;
+    font-family: Verdana;
+    font-size: 23px;
+    padding-top: 5px;
+    text-align: center;
+    
+    font-weight: bold;
+  }
+
+  input{
+    padding: 15px;
+    border: 2px solid rgb(255, 115, 0);
+    border-radius: 20px;
+    font-size: 1.5rem;
+    color: orangered;
+    margin-left: 40px;
+    text-align: center;
+  }
+
+}
+
